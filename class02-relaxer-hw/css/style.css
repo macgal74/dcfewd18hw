@@ -89,6 +89,14 @@ h4 {
   text-decoration: none;
 }
 
+h5 {
+  font-family: 'Opens Sans' , sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  padding-top: 60px;
+}
+
 p {
   font-family: 'Opens Sans' , sans-serif;
   font-size: 22px;
@@ -117,6 +125,15 @@ a {
   text-decoration: none;
 }
 
+.twitter {
+  padding-right: 40px;
+  margin: auto;
+}
+
+.facebook {
+  padding-right: 10px;
+}
+
 
 /******************************************
 /* LAYOUT
@@ -137,6 +154,7 @@ header {
   width: 100%;
   margin: auto;
   height: 500px;
+  background-color: #033048;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
 
@@ -174,6 +192,7 @@ section {
   padding-top: 50px;
 }
 
+
 /*<!-- blockquote//////////////////////////////////////////////////////// -->*/
 .blockquote {
   width: 100%;
@@ -203,6 +222,7 @@ section {
   width: 100%;
   margin: auto;
   height: 100px;
+  padding-top: 30px;
   text-align: center;
   background-color: #f9e42e;
 }
@@ -223,8 +243,19 @@ footer {
   width: 100%;
   margin: auto;
   height: 345px;
+  text-align: center;
   background-color: #2E2E2E;
 }
+
+.footer-h1 {
+  font-family: 'Opens Sans' , sans-serif;
+  font-size: 44px;
+  font-weight: 800;
+  color: #f9e42e;
+  margin: auto;
+  padding-top: 60px;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
