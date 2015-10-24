@@ -153,7 +153,7 @@ a {
 header {
   width: 100%;
   margin: auto;
-  height: 500px;
+  height: 700px;
   background-color: #033048;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
@@ -163,7 +163,8 @@ header {
 .nav-header {
   width: 60%;
   margin: auto;
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .content {
@@ -190,6 +191,7 @@ section {
 .benefits {
   width: 60%;
   padding-top: 50px;
+  
 }
 
 
