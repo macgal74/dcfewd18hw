@@ -1,10 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
 
-</body>
+		<title>Relaxr</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- load jquery First -->
+		<script src="js/jquery-1.11.3.min.js"></script>
+
+		<script>
+			// when the page is loaded, do some stuff
+			$( document ).ready(function(){
+				// when any element with class ".sign-up-button" is clicked, display an alert
+				$(".sign-up-button").click(function(){
+					alert("We're Not Ready For Sign-Ups...Yet.");
+				});
+			  $(".get-it-now").click(function() {
+					alert("Check Back Later for Updates");
+				});
+			});
+		</script>
+	</head>
+
+<!-- hero image	/////////////////////////////////// -->
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="logo_nav"><a href="index.html">Relaxr<a/></h1>
+				<ul class="relaxr_nav_menu">
+					<li><a href="#">About</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Team</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="blog.html">Blog</a></li>
+				</ul>
+		</div>
+		<div class="container">
+		<p class="tagline">Get piece of mind with a single tap</p>
+		<a class="btn btn-yellow get-it-now" href="#">Get it Now</a>
+	</div>
+		</header>
+
+<!-- benefits section ////////////////////////		 -->
+		<section class="benefits">
+			<div class="container">
+				<h1 class="title-benefits">Benefits</h1>
+				<p>The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.</p>
+				<ul>
+					<li>Schedule meetings for you</li>
+					<li>Excel automation to complete your work for you</li>
+					<li>Responds to emails on your behalf</li>
+					<li>Does all your work for you with our revolutionary AI technology</li>
+				</ul>
+			</div>
+		</section>
+
+<!-- testimonial section ////////////////////////		 -->
+		<section class="testimonial">
+			<div class="container">
+				<blockquote>&ldquo;Relaxr changed my life. I&rsquo;ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.&rdquo;
+				<span>- Amanda, Intuit</span></blockquote>
+			</div>
+		</section>
+
+<!-- call to action section //////////////////		 -->
+		<aside>
+			<a class="btn btn-blue sign-up-button" href="#">Sign Up Now!</a>
+		</aside>
+
+<!-- footer section //////////////////////		 -->
+		<footer>
+			<h4 class="logo">Relaxr</h4>
+
+			<ul>
+				<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
+				<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
+			</ul>
+
+			<p class="copyright">Copyright 2015. Relaxr.</p>
+		</footer>
+	</body>
 </html>
