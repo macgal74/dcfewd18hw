@@ -12,6 +12,22 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 
+		<!-- load jquery First -->
+		<script src="js/jquery-1.11.3.min.js"></script>
+
+		<script>
+			// when the page is loaded, do some stuff
+			$( document ).ready(function(){
+				// when any element with class ".sign-up-button" is clicked, display an alert
+				$(".sign-up-button").click(function(){
+					alert("We're Not Ready For Sign-Ups...Yet.");
+				});
+				$(".get-it-now").click(function() {
+					alert("Check Back Later for Updates");
+				});
+			});
+		</script>
+
 	</head>
 <body>
 
@@ -85,7 +101,7 @@
 
 <!--call to action area/////////////////////////////// -->
 	<aside>
-		<a class="btn btn-blue" href="#">Sign Up Now!</a>
+		<a class="btn btn-blue sign-up-button" href="#">Sign Up Now!</a>
 	</aside>
 
 <!--footer content area/////////////////////////////// -->
