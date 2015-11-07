@@ -14,26 +14,18 @@
 //when "read more" is clicked toggle open the remaining text
 $( document ).ready(function(){
 
-jQuery('.read_more_one a').on('click',function(){
-  event.preventDefault();
+      $('.read_more').click(function(){
+        event.preventDefault();
+        $('#read_more_copy').slideDown();
+        $('.read_more').hide();
+        $('.read_less').show();
+  });
 
-});
-
-
-function toggleRead_more_copy_one() {
-  $('.read_more_copy_one').slideToggle();
-  return false;
-}
-
-function toggleRead_more_copy_two() {
-  $('.read_more_copy_two').slideToggle();
-  return false;
-}
-
-$('.read_more_copy_one').hide();
-$('.read_more_copy_two').hide();
-
-$('.read_more_one a').click(toggleRead_more_copy_one);
-$('.read_more_two a').click(toggleRead_more_copy_two);
+      $('.read_less').click(function(){
+        $('#read_more_copy').slideUp();
+        $('.read_less').hide();
+        $('.read_more').show();
+        event.preventDefault();
+      });
 
 });

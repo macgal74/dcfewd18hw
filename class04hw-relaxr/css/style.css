@@ -215,34 +215,17 @@ blockquote span {
   margin: 0;
 }
 
-.read_more_one {
+.read_more, .read_less {
   float: right;
 }
 
-.read_more_one a {
+.read_more a, .read_less a {
   font-size: 18px;
   font-weight: 800;
   color: #033048;
 }
 
-.read_more_one a:hover {
-  font-size: 18px;
-  font-weight: 800;
-  color: #033048;
-  border-bottom: 3px solid #033048;
-}
-
-.read_more_two {
-  float: right;
-}
-
-.read_more_two a {
-  font-size: 18px;
-  font-weight: 800;
-  color: #033048;
-}
-
-.read_more_two a:hover {
+.read_more a:hover {
   font-size: 18px;
   font-weight: 800;
   color: #033048;
