@@ -105,6 +105,10 @@ nav {
   width: 190px;
 }
 
+.img_nav_logo2 > li > a:hover {
+  width: 300px;
+}
+
 .shadowme-nav li {
   display: inline-block;
 }
@@ -112,7 +116,11 @@ nav {
 .shadowme-nav > li > a {
   font-size: 22px;
   font-weight: 300;
-  color: white;
+  color: #E6FAF9;
+}
+
+.shadowme-nav > li > a:hover {
+  text-decoration: none;
 }
 
 .shadowme-nav {
@@ -165,9 +173,24 @@ padding-right: 20px;
 
 .my-dev-mentor {
   width: 100px;
+  border-radius: 100px;
 }
 
 .img-circle {
   width: 140px;
   height: 140px;
+}
+
+.btn-modal {
+  background: #914A89;
+  box-shadow: 0px 2px 0px 0px #400B3A;
+  border-radius: 9px;
+  color: #E6FAF9;
+  font-weight: 400;
+  padding: 10px 40px;
+}
+
+.btn-modal > a {
+  text-decoration: none;
+
 }

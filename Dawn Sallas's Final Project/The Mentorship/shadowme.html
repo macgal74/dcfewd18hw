@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Static Top Navbar Example for Bootstrap</title>
+    <title>Match Your Mentor</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -109,10 +109,10 @@
             </p>
             <div class="row answer-row " >
               <div class="radio">
-                <label><input type="radio" name="q3" value="yes">Yes</label>
+                <label><input type="radio" name="q2" value="yes">Yes</label>
               </div>
               <div class="radio">
-                <label><input type="radio" name="q3" value="no">No</label>
+                <label><input type="radio" name="q2" value="no">No</label>
               </div>
             </div>
           </div>
@@ -128,10 +128,10 @@
             </p>
             <div class="row answer-row " >
               <div class="radio">
-                <label><input type="radio" name="q4" value="yes">Yes</label>
+                <label><input type="radio" name="q3" value="yes">Yes</label>
               </div>
               <div class="radio">
-                <label><input type="radio" name="q4" value="no">No</label>
+                <label><input type="radio" name="q3" value="no">No</label>
               </div>
             </div>
           </div>
@@ -147,10 +147,10 @@
             </p>
             <div class="row answer-row " >
               <div class="radio">
-                <label><input type="radio" name="q5" value="yes">Yes</label>
+                <label><input type="radio" name="q4" value="yes">Yes</label>
               </div>
               <div class="radio">
-                <label><input type="radio" name="q5" value="no">No</label>
+                <label><input type="radio" name="q4" value="no">No</label>
               </div>
             </div>
           </div>
@@ -166,16 +166,24 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            <h4 class="modal-title" id="myModalLabel">Matching Your Mentor</h4>
           </div>
           <div class="modal-body">
-            <h1>Here are the mentors that are available for you to shadow:</h1>
-            <img class="my-dev-mentor" src="images/dev.nick.png" alt="..." class="img-circle">
-            <img class="my-dev-mentor" src="images/dev.sean.png" alt="..." class="img-circle">
+            <h1>Matched Mentors</h1>
+            <p>Looks like the developer world is where you would like to learn more information. Here are the shadows that are available:</p>
+          <div class="row">
+            <div class="col-sm-6 mentor-one">
+              <img class="my-dev-mentor" src="images/dev.nick.png" alt="Nick Capito" class="img-circle"><p>Nick Capito</p>
+            </div>
+              <div class="col-sm-6 mentor-two">
+              <img class="my-dev-mentor" src="images/dev.sean.png" alt="Sean Cloney" class="img-circle">
+              <p>Sean Cloney</p>
+              </div>
           </div>
+        </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-modal"><a href="mailto:sarahshrader@unboxedtechnology"><i class="fa fa-envelope"></i> Send Email</a></button>
+
           </div>
         </div>
       </div>
